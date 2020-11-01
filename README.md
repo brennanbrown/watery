@@ -24,15 +24,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Watery Screen Shot][product-screenshot]](https://i.postimg.cc/jqHCFvPj/screenshot.png)
-
 **Watery** is a minimalist, bare-bones theme for the popular JAMstack file-based CMS Jekyll that only uses the `<80kb` [**Water.css** framework](https://github.com/kognise/water.css) (hence the name!), while still following the best practices possible for accessibility and search-engine optimization.
 
 I created this because I wasn't able to find an up-to-date starter/skeleton theme for Jekyll. Even the default theme, Minima, uses the large Bootstrap framework.
 
 This project is aimed towards those curious about using Jekyll for the first time, and want to build from as close to scratch as possible. Alternatively, it still has all the features required for creating a hassle-free, informational website or blog in just a few clicks.
 
-As of November 1st, 2020, with over 100 posts on Watery, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
+As of November 1st, 2020, with >70 posts on Watery, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
+
+
+![Watery Screen Shot](https://i.postimg.cc/C1XhZB3d/Watery-Screenshot.png)
 
 ### Features
 
