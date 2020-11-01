@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div>
+    {{ content }}
+
+    {% if site.paginate %}
+        {% assign posts = paginator.posts %}
+    {% else %}
+        {% assign posts = site.posts %}
+    {% endif %}
+
+    {%- if posts.size > 0 -%}
+        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+        {%- for post in posts -%}
+
+            <h2>
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h2>
+            <span>Posted:
+                {{ post.date | date: date_format }}
+            </span>
+            <span>
+                {% for tag in post.tags %}
+                <a href="/tags/#{{ tag }}">#{{ tag }}</a>
+                {% endfor %}
+            </span>
+            <br/>
+            <small>
+                <em>{{ post.content | strip_html | escape | truncate: 300}}</em>
+            </small>
+
+        {%- endfor -%}
+
+        <br/>
+
+        {% if site.paginate %}
+            <div id="pages">
+                {%- if paginator.previous_page %}
+                    <a href="{{ paginator.previous_page_path | relative_url }}">< Previous</a>
+                {%- else %}
+                    <strong>#</strong>
+                {%- endif %}
+
+                <strong id="current-page">
+                    Page
+                    {{ paginator.page }}
+                </strong>
+
+                {%- if paginator.next_page %}
+                    <a href="{{ paginator.next_page_path | relative_url }}" class="next-page">Next ></a>
+                {%- else %}
+
+                    <strong>#</strong>
+
+                {%- endif %}
+            </div>
+            <br/>
+        {%- endif %}
+
+    {%- endif -%}
+
+</div>

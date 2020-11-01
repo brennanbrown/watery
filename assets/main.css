@@ -1,0 +1,72 @@
+h1, figcaption,
+#navigation,
+#author h3 {
+    text-align: center;
+}
+
+h1 a {
+    color: darkcyan;
+}
+
+h2 {
+    margin-bottom: 0px;
+}
+
+#author {
+    overflow: auto;
+    background: #eee;
+    padding: 0px 10px 15px;
+}
+
+#author img{
+    float: left;
+    max-height: 150px;
+    margin-top: -10px;
+    padding-right: 15px;
+}
+
+#author h3 {
+    margin-top: 5px;
+}
+
+#pages {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#current-page {
+    padding: 0px 15px;
+}
+
+#social {
+    text-align: right;
+}
+
+/* ACCESSIBILITY */
+a.skip-main {
+    left: -999px;
+    position: absolute;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: -999;
+}
+
+a.skip-main:focus,
+a.skip-main:active {
+    color: #fff;
+    background-color: #000;
+    left: auto;
+    top: auto;
+    width: 30%;
+    height: auto;
+    overflow: auto;
+    margin: 10px 35%;
+    padding: 5px;
+    border-radius: 15px;
+    border: 4px solid yellow;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 999;
+}
