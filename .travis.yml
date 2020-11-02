@@ -8,8 +8,8 @@ before_install:
 
 script: script/cibuild
 
-env:
-  matrix:
-    - JEKYLL_VERSION="~> 3.8.0"
-    - JEKYLL_VERSION="~> 3.9"
-    - JEKYLL_VERSION="~> 4.0"
+# env:
+#   matrix:
+#     - JEKYLL_VERSION="~> 3.8.0"
+#     - JEKYLL_VERSION="~> 3.9"
+#     - JEKYLL_VERSION="~> 4.0"
