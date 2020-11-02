@@ -41,9 +41,10 @@ Despite Watery's minimalist nature, there are a few interesting features that ha
 
 - A fully customizable and empty `_BLANK_config.yml` to make getting up-and-running easy.
 - Having a `_pages` collection for easier organization.
-- Auto-generated links to newly created pages in the navigation.
+- Auto-generated links in navigation to all pages in `_pages`.
+- Auto-generated [tags page](https://watery.netlify.app/tags) that lists all tags used by all posts in chronological order.
 - An author bio at the end of each post. (Located in `_inclues/author.html`)
-- Full Rouge support for syntax highlighting. (Currently using `base16.solarized.light`)
+- Full [Rouge](https://github.com/rouge-ruby/rouge) support for syntax code highlighting. (Currently using `base16.solarized.light`)
 - Auto-generated RSS feed, sitemap, accessibility features, and search-engine optimization.
 
 ## Installation
@@ -77,11 +78,11 @@ cd watery
 ```
 bundle install
 ```
-5. Build the site and make it available on a local server.
+6. Build the site and make it available on a local server.
 ```
 bundle exec jekyll serve
 ```
-6. Browse to [http://localhost:4000](http://localhost:4000)
+7. Browse to [http://localhost:4000](http://localhost:4000)
 
 If you encounter any errors during this process, check that you have installed all the prerequisites in [Requirements](https://jekyllrb.com/docs/installation/#requirements). 
 
@@ -102,8 +103,9 @@ Once you have Jekyll up-and-running, there are only a few steps needed to make t
 
 There are several features that I'm still planning to create and integrate, including:
 
+- Create a secondary "night mode" theme variant with Water's dark CSS style.
 - Create a [Theme Gem](https://jekyllrb.com/docs/themes/#publishing-your-theme)
-- Add easy and automatic buttons to ["Deploy to Neflify"](https://docs.netlify.com/site-deploys/create-deploys/#deploy-to-netlify-button), Heroku, etc.
+- Add easy and automatic buttons to ["Deploy to Netlify"](https://docs.netlify.com/site-deploys/create-deploys/#deploy-to-netlify-button), Heroku, etc.
 - Add Travis continious integration checks
 - Add additional documentation for creating custom collections and auto generated pages
 
@@ -136,15 +138,15 @@ While creating this theme, I came across a lot of helpful and hard-to-find resou
 - Course on Jekyll: https://learn-the-web.algonquindesign.ca/topics/jekyll/
 - Jekyll for Designers: http://simpleprimate.com/jekyll-for-designers/index.html
 - Dynamic Copyright on Jekyll: https://michaelsoolee.com/jekyll-copyright/
-- For breadcrumb trails: https://jekyllcodex.org/without-plugin/breadcrumbs/
+- Creating breadcrumbs in Jekyll:  https://jekyllcodex.org/without-plugin/breadcrumbs/
 - Display all items from ALL collections: https://stackoverflow.com/questions/31171041/listing-all-collections-in-jekyll
 
 ### Other Resources
 
 - For markdown previews: https://jaspervdj.be/lorem-markdownum/
 - Case Study on webfont performance: https://www.keycdn.com/blog/web-font-performance
-- An extensive .gitignore: https://miguelmota.com/bytes/extensive-gitignore/
-- Most importantly, be mindful of: http://motherfuckingwebsite.com/
+- An extensive `.gitignore`: https://miguelmota.com/bytes/extensive-gitignore/
+- The inspriation for this project: http://motherfuckingwebsite.com/
 
 ## Credit
 

@@ -9,8 +9,7 @@ tags:
   - Inspiration
 ---
 
-**PART ONE: HAVING FAITH IN GRAND DREAMS  
-** Understanding the _why_ of the work is the most important thing that’s needed when starting out. It’s so easy to become discouraged when you’re in the the thick of the weeds, when you need to do difficult or tedious. Motivation and discipline to do such work comes from having a bigger picture — a purpose.
+**PART ONE: HAVING FAITH IN GRAND DREAMS** Understanding the _why_ of the work is the most important thing that’s needed when starting out. It’s so easy to become discouraged when you’re in the the thick of the weeds, when you need to do difficult or tedious. Motivation and discipline to do such work comes from having a bigger picture — a purpose.
 
 This purpose comes from a place of realistic optimism and idealism. It’s a messy and bold goal. A tangible, yet implausible objective without conventional measure or perspective. There’s a lot wrong with the world — and a lot of people that will complain about it — but how can you improve it? What troubles are you willing to tackle head-on for the good of humanity?
 
