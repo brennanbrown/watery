@@ -49,8 +49,6 @@ function add_switcher() {
   var new_div = document.createElement('div');
   new_div.id = 'switcher';
   new_div.innerHTML = '      <div>&nbsp;</div>\n      <script type="text/javascript">inline_switcher();</script>';
-  document.body.prepend(new_div);
-  document.body.style.paddingLeft = "24px";
 
   inline_switcher();
 
