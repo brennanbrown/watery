@@ -122,7 +122,7 @@ As per usual, I enjoy displaying how I personally use the information that I fin
 
 <figure class="wp-caption">
 
-[<img data-width="2400" data-height="1800" src="https://cdn-images-1.medium.com/max/800/1*pRon9UAtEO-JzTY-7mg1jA.png" />](https://medium.com/@brennanbrown)<figcaption class="wp-caption-text"><b>Thanks for Reading!</b></figcaption></figure>
+<img data-width="2400" data-height="1800" src="https://cdn-images-1.medium.com/max/800/1*pRon9UAtEO-JzTY-7mg1jA.png" /><figcaption class="wp-caption-text"><b>Thanks for Reading!</b></figcaption></figure>
 
 <figure class="wp-caption">
 
