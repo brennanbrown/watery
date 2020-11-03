@@ -154,4 +154,5 @@ While creating this theme, I came across a lot of helpful and hard-to-find resou
 ## Credit
 
 [**Water.css**](https://watercss.kognise.dev/) was created by [Kognise](https://github.com/kognise).
-was created by [Dohliam](https://github.com/dohliam).
+
+[**Dropin Minimal CSS**](https://github.com/dohliam/dropin-minimal-css) was created by [Dohliam](https://github.com/dohliam).
