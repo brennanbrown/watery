@@ -1,10 +1,11 @@
 h1, figcaption,
+#description,
 #navigation,
 #author h3 {
     text-align: center;
 }
 
-h1 a {
+#title a {
     color: darkcyan;
 }
 
@@ -14,7 +15,6 @@ h2 {
 
 #author {
     overflow: auto;
-    background: #eee;
     padding: 0px 10px 15px;
 }
 

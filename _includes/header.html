@@ -1,26 +1,18 @@
 <header>
-    <h1>
+    <h1 id="title">
         <a href="/">{{site.title}}</a>
     </h1>
-    <span>
+    <span id="description">
         {{site.description}}
     </span>
 
     <hr />
     <div id="navigation">
-        <strong>
-            <a href="/">Home</a>
-        </strong> /
+        <strong><a href="/">Home</a></strong> /
         {% for page in site.pages %}
-            <strong>
-                <a href="{{ page.url }}">
-                    {{page.title}}
-                </a>
-            </strong> /
+        <strong><a href="{{ page.url }}">{{page.title}}</a></strong> /
         {% endfor %}
-        <strong>
-            <a href="/feed.xml">RSS</a>
-        </strong>
+        <strong><a href="/feed.xml">RSS</a></strong>
     </div>
     <hr />
 </header>

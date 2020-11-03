@@ -32,6 +32,7 @@ This project is aimed towards those curious about using Jekyll for the first tim
 
 As of November 1st, 2020, with >70 posts on Watery, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
 
+**New!** Change the CSS framework with a single button, thanks to [**Dropin Minimal CSS**](https://github.com/dohliam/dropin-minimal-css).
 
 ![Watery Screen Shot](https://i.postimg.cc/C1XhZB3d/Watery-Screenshot.png)
 
@@ -108,6 +109,8 @@ There are several features that I'm still planning to create and integrate, incl
 - Add easy and automatic buttons to ["Deploy to Netlify"](https://docs.netlify.com/site-deploys/create-deploys/#deploy-to-netlify-button), Heroku, etc.
 - Add Travis continious integration checks
 - Add additional documentation for creating custom collections and auto generated pages
+- Add the following files: `robots.txt`, `asset-manifest.json`, `light.css.map`
+- Add more example posts and articles
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
@@ -151,3 +154,4 @@ While creating this theme, I came across a lot of helpful and hard-to-find resou
 ## Credit
 
 [**Water.css**](https://watercss.kognise.dev/) was created by [Kognise](https://github.com/kognise).
+was created by [Dohliam](https://github.com/dohliam).

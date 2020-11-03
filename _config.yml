@@ -57,6 +57,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+permalink: /:title
 
 # Allows all pages to be put into `_pages` folder
 # for easier navigation and better SEO.
