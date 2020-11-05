@@ -21,6 +21,23 @@
   </p>
 </p>
 
+<!-- BADGES -->
+<p align="center">
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/watery"> 
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/watery"> 
+<a href="https://github.com/brennanbrown/watery/search?l=html"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/watery"></a>
+<a href="https://github.com/brennanbrown/watery/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/watery"></a> 
+<a href="https://github.com/brennanbrown/watery/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brennanbrown/watery"></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery.svg?type=shield"/></a>
+<a href="https://github.com/brennanbrown/watery/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/watery"></a> 
+<a href="https://watery.netlify.app"><img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Offline%21&label=Status&up_color=darkgreen&up_message=Online%21&url=https%3A%2F%2Fwatery.netlify.app"></a>
+<br />
+<a href="https://github.com/brennanbrown?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/brennanbrown?label=Follow%20Me%21&style=social"></a>
+<a href="https://github.com/brennanbrown/watery/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/brennanbrown/watery?label=Watch%21&style=social"></a>
+<a href="https://github.com/brennanbrown/watery/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/brennanbrown/watery?label=Star%21&style=social"> </a>
+<a href="https://github.com/brennanbrown/watery/network/members"><img alt="GitHub forks"src="https://img.shields.io/github/forks/brennanbrown/watery?label=Fork%21&style=social">
+</p>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -32,10 +49,11 @@ This project is aimed towards those curious about using Jekyll for the first tim
 
 As of November 1st, 2020, with >70 posts on Watery, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
 
+For an example, you can view my blog, [**Journal.bar/**](https://journal.bar/) using this theme with the [LaTeX.css](https://latex.now.sh/) framework.
+
 **New!** Change the CSS framework with a single button, thanks to [**Dropin Minimal CSS**](https://github.com/dohliam/dropin-minimal-css).
 
 ![Watery Screen Shot](https://i.postimg.cc/C1XhZB3d/Watery-Screenshot.png)
-[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery?ref=badge_shield)
 
 ### Features
 
