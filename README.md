@@ -35,6 +35,7 @@ As of November 1st, 2020, with >70 posts on Watery, the website scores a perfect
 **New!** Change the CSS framework with a single button, thanks to [**Dropin Minimal CSS**](https://github.com/dohliam/dropin-minimal-css).
 
 ![Watery Screen Shot](https://i.postimg.cc/C1XhZB3d/Watery-Screenshot.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery?ref=badge_shield)
 
 ### Features
 
@@ -132,6 +133,9 @@ Contributions are what make the open source community such an amazing place to b
 Distributed under the MIT License. You can use this project however you see fit without needing to give attribution. 
 
 See `LICENSE` for more information.
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery?ref=badge_large)
 
 ## Resources
 
