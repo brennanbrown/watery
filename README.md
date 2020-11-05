@@ -98,6 +98,7 @@ Once you have Jekyll up-and-running, there are only a few steps needed to make t
 3. Modify or remove the pages in `_pages` to however you see fit.
 4. *(Optional)* Modify or remove this `README.md` with information about your own project or blog.
 5. *(Optional)* Modify the CSS files in the `assets` folder to customize the site.
+6. *(Optional)* Remove `switcher.js` from the `assets` folder, choose [**another framework**](https://github.com/dbohdan/classless-css) to use!
 
 <!-- ROADMAP -->
 ## Roadmap

@@ -26,6 +26,8 @@ plugins:
   - jekyll-paginate
 permalink: /:title
 
+theme_switcher: false
+
 # Allows all pages to be put into `_pages` folder
 # for easier navigation and better SEO.
 collections:
