@@ -10,9 +10,9 @@ permalink: /documentation/
 
 Jekyll requires the following:
 
-* Ruby version **2.5.0** or higher
-* RubyGems
-* GCC and Make
+- Ruby version **2.5.0** or higher
+- RubyGems
+- GCC and Make
 
 See [Requirements](https://jekyllrb.com/docs/installation/#requirements) for guides and details.
 
@@ -20,28 +20,38 @@ See [Requirements](https://jekyllrb.com/docs/installation/#requirements) for gui
 
 1. Install all [prerequisites](https://jekyllrb.com/docs/installation/).
 2. Install the jekyll and bundler [gems](https://jekyllrb.com/docs/ruby-101/#gems).
+
 ```
 gem install jekyll bundler
 ```
+
 3. Clone this repository.
+
 ```
 git clone https://github.com/brennanbrown/watery.git
 ```
+
 4. Change into your new directory.
+
 ```
 cd watery
 ```
+
 5. Install gems from the `Gemfile`.
+
 ```
 bundle install
 ```
+
 5. Build the site and make it available on a local server.
+
 ```
 bundle exec jekyll serve
 ```
+
 6. Browse to [http://localhost:4000](http://localhost:4000)
 
-If you encounter any errors during this process, check that you have installed all the prerequisites in [Requirements](https://jekyllrb.com/docs/installation/#requirements). 
+If you encounter any errors during this process, check that you have installed all the prerequisites in [Requirements](https://jekyllrb.com/docs/installation/#requirements).
 
 If you still have issues, see [Troubleshooting](https://jekyllrb.com/docs/troubleshooting/#configuration-problems).
 
@@ -52,10 +62,11 @@ Once you have Jekyll up-and-running, there are only a few steps needed to make t
 1. Fill out the `_BLANK_config.yml` configuration file and replace the current `_config.yml`
 2. Remove the `example_posts` folder in `_posts` and start writing your own!
 3. Modify or remove the pages in `_pages` to however you see fit.
-4. *(Optional)* Modify or remove this `README.md` with information about your own project or blog.
-5. *(Optional)* Modify the CSS files in the `assets` folder to customize the site.
+4. _(Optional)_ Modify or remove this `README.md` with information about your own project or blog.
+5. _(Optional)_ Modify the CSS files in the `assets` folder to customize the site.
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 There are several features that I'm still planning to create and integrate, including:
@@ -68,6 +79,7 @@ There are several features that I'm still planning to create and integrate, incl
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -79,8 +91,9 @@ Contributions are what make the open source community such an amazing place to b
 5. Open a Pull Request
 
 <!-- LICENSE -->
+
 ## License
 
-Distributed under the MIT License. You can use this project however you see fit without needing to give attribution. 
+Distributed under the MIT License. You can use this project however you see fit without needing to give attribution.
 
 See `LICENSE` for more information.

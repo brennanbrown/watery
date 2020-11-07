@@ -6,13 +6,15 @@
         {{site.description}}
     </p>
 
-    <hr />
+    <hr/>
     <div id="navigation">
-        <strong><a href="/">Home</a></strong> /
+        <a href="/">Home</a>
+        /
         {% for page in site.pages %}
-        <strong><a href="{{ page.url }}">{{page.title}}</a></strong> /
+            <a href="{{ page.url }}">{{page.title}}</a>
+            /
         {% endfor %}
-        <strong><a href="/feed.xml">RSS</a></strong>
+        <a href="/feed.xml">RSS</a>
     </div>
-    <hr />
+    <hr/>
 </header>

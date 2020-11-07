@@ -1,16 +1,21 @@
-h1, figcaption,
+h1,
+figcaption,
 #description,
 #navigation,
 #author h3 {
     text-align: center;
 }
 
+h2 {
+    margin-bottom: 0px;
+}
+
 #title a {
     color: darkcyan;
 }
 
-h2 {
-    margin-bottom: 0px;
+#navigation a {
+    font-weight: bold;
 }
 
 #author {
@@ -18,7 +23,7 @@ h2 {
     padding: 0px 10px 15px;
 }
 
-#author img{
+#author img {
     float: left;
     max-height: 150px;
     margin-top: -10px;

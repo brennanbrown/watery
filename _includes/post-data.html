@@ -1,4 +1,4 @@
-    <p>
+<p>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date: date_format }}
