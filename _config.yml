@@ -30,7 +30,7 @@ repository: brennanbrown/watery
 twitter: brennankbrown
 github: brennanbrown
 
-google_analytics: 
+google_analytics:
 comments: true
 disqus: watery-jekyll
 
@@ -44,6 +44,7 @@ author_bio: >-
 author_pic: https://brennanbrown.ca/img/avatar.png
 
 paginate: 4
+paginate_path: "/:num/"
 
 markdown: kramdown
 
@@ -70,6 +71,6 @@ collections:
 
 # Exclude from processing.
 exclude:
-  - '.jekyll-cache'
-  - 'Gemfile'
-  - 'Gemfile.lock'
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"

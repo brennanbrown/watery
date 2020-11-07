@@ -1,21 +1,22 @@
-title: 
+title:
 email:
 description: >- # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-repository: 
-twitter: 
-github: 
+repository:
+twitter:
+github:
 
 paginate: 4
+paginate_path: "/:num/"
 
-google_analytics: 
+google_analytics:
 comments: false
 disqus:
 
-author: 
-author_pic: 
+author:
+author_pic:
 author_bio: >-
 
 # Build settings
@@ -37,6 +38,6 @@ collections:
 
 # Exclude from processing.
 exclude:
-  - '.jekyll-cache'
-  - 'Gemfile'
-  - 'Gemfile.lock'
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"
