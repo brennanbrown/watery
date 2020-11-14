@@ -4,7 +4,6 @@ title: "Getting Unstuck for Creatives"
 date: 2020-10-30
 author: Brennan K. Brown
 layout: post
-permalink: /posts/getting-unstuck
 tags:
   - Creativity
   - Inspiration

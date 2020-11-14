@@ -3,7 +3,6 @@ title: Creating a Contingency Plan
 date: 2020-10-28
 author: Brennan K. Brown
 layout: post
-permalink: /posts/creating-a-contingency-plan/
 tags:
   - Planning
   - Productivity

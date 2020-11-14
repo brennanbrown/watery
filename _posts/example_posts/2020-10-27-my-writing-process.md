@@ -3,7 +3,6 @@ title: My Writing Process
 date: 2020-10-27
 author: Brennan K. Brown
 layout: post
-permalink: /posts/my-writing-process/
 tags:
   - Productivity
   - Planning

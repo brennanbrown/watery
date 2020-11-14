@@ -3,7 +3,6 @@ title: The Duality of Purpose and Work
 date: 2020-10-25
 author: Brennan K. Brown
 layout: post
-permalink: /posts/the-duality-of-purpose-and-work/
 tags:
   - Purpose
   - Inspiration
