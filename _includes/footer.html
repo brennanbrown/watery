@@ -10,16 +10,12 @@
         </a>
     </div>
     <strong>
-        &copy;
-        {{ site.time | date: '%Y' }}
-        <a href="/">{{ site.title }}</a>
+        <a href="https://github.com/{{ site.repository }}">Source Code</a> licensed <a
+           href="https://github.com/{{ site.repository }}/blob/master/LICENSE">MIT</a> {{ site.time | date: '%Y' }}.
+        <br/> 
+        Website content licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
         <br/>
-        by
-        {{ site.author }}.
-        <br/>
-        View
-        <a href="https://github.com/{{site.repository}}">
-            Source Code</a>
+        by {{ site.author }}
     </strong>
 
 </footer>
