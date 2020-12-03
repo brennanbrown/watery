@@ -46,8 +46,8 @@ layout: default
                 {%- endif %}
 
                 <strong id="current-page">
-                    Page
-                    {{ paginator.page }}
+                    Page {{ paginator.page }}
+                    of {{ paginator.total_pages }}
                 </strong>
 
                 {%- if paginator.next_page %}
