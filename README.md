@@ -23,6 +23,7 @@
 
 <!-- BADGES -->
 <p align="center">
+<a href="https://app.netlify.com/sites/watery/deploys"><img src="https://api.netlify.com/api/v1/badges/d0dec072-0493-4b48-9f66-739482a9c80f/deploy-status" alt="Netlify Status"></a>
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/watery"> 
 <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/watery"> 
 <a href="https://github.com/brennanbrown/watery/search?l=html"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/watery"></a>
