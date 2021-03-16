@@ -51,7 +51,7 @@ This project is aimed towards those curious about using Jekyll for the first tim
 
 As of November 1st, 2020, with >70 posts on Watery, the website scores a perfect 100 in Performance, Accessibility, Best Practices, and SEO on an audit with [**Google Lighthouse**](https://developers.google.com/web/tools/lighthouse).
 
-For an example, you can view my blog, [**Journal.bar/**](https://journal.bar/) using this theme with the [LaTeX.css](https://latex.now.sh/) framework.
+For an example, you can view my blog, [**Journal.kim/**](https://journal.kim/) using this theme with the [Writ.css](https://writ.cmcenroe.me/) framework.
 
 **New!** Change the CSS framework with a single button, thanks to [**Dropin Minimal CSS**](https://github.com/dohliam/dropin-minimal-css).
 
