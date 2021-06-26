@@ -1,21 +1,28 @@
 <footer>
     <div id="social">
         Follow:
-        <a href="https://twitter.com/{{site.twitter}}">
+        <a href="https://twitter.com/{{site.twitter}}" rel="me">
             Twitter
         </a>
         /
-        <a href="https://github.com/{{site.github}}">
+        <a href="https://github.com/{{site.github}}" rel="me">
             GitHub
+        </a>
+        /
+        <a href="mailto:{{site.email}}" rel="me">
+            E-mail
         </a>
     </div>
     <strong>
-        <a href="https://github.com/{{ site.repository }}">Source Code</a> licensed under <a
-           href="https://github.com/{{ site.repository }}/blob/master/LICENSE">MIT</a>.
-        <br/> 
-        Website content licensed <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+        <a href="https://github.com/{{ site.repository }}">Source Code</a>
+        licensed under
+        <a href="https://github.com/{{ site.repository }}/blob/master/LICENSE">MIT</a>.
         <br/>
-        by {{ site.author }}
+        Website content licensed
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a>
+        <br/>
+        by
+        {{ site.author }}
     </strong>
 
 </footer>
