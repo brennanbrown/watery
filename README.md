@@ -24,13 +24,13 @@
 <!-- BADGES -->
 <p align="center">
 <a href="https://app.netlify.com/sites/watery/deploys"><img src="https://api.netlify.com/api/v1/badges/d0dec072-0493-4b48-9f66-739482a9c80f/deploy-status" alt="Netlify Status"></a>
-<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/watery"> 
-<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/watery"> 
+<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/brennanbrown/watery">
+<img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/brennanbrown/watery">
 <a href="https://github.com/brennanbrown/watery/search?l=html"><img alt="GitHub top language" src="https://img.shields.io/github/languages/top/brennanbrown/watery"></a>
-<a href="https://github.com/brennanbrown/watery/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/watery"></a> 
+<a href="https://github.com/brennanbrown/watery/issues"><img alt="GitHub issues" src="https://img.shields.io/github/issues/brennanbrown/watery"></a>
 <a href="https://github.com/brennanbrown/watery/commits/main"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/brennanbrown/watery"></a>
 <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery.svg?type=shield"/></a>
-<a href="https://github.com/brennanbrown/watery/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/watery"></a> 
+<a href="https://github.com/brennanbrown/watery/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/watery"></a>
 <a href="https://watery.netlify.app"><img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Offline%21&label=Status&up_color=darkgreen&up_message=Online%21&url=https%3A%2F%2Fwatery.netlify.app"></a>
 <br />
 <a href="https://github.com/brennanbrown?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/brennanbrown?label=Follow%20Me%21&style=social"></a>
@@ -172,20 +172,20 @@ See `LICENSE` for more information.
 
 While creating this theme, I came across a lot of helpful and hard-to-find resources. If you'd like to dive deeper into Jekyll, check them out:
 
-- Jumping Into Jekyll: https://dev.to/brennan/jumping-into-jekyll-4o9h
-- Jekyll Cheatsheet: https://devhints.io/jekyll
-- Course on Jekyll: https://learn-the-web.algonquindesign.ca/topics/jekyll/
-- Jekyll for Designers: http://simpleprimate.com/jekyll-for-designers/index.html
-- Dynamic Copyright on Jekyll: https://michaelsoolee.com/jekyll-copyright/
-- Creating breadcrumbs in Jekyll: https://jekyllcodex.org/without-plugin/breadcrumbs/
-- Display all items from ALL collections: https://stackoverflow.com/questions/31171041/listing-all-collections-in-jekyll
+- Jumping Into Jekyll: <https://dev.to/brennan/jumping-into-jekyll-4o9h>
+- Jekyll Cheatsheet: <https://devhints.io/jekyll>
+- Course on Jekyll: <https://learn-the-web.algonquindesign.ca/topics/jekyll/>
+- Jekyll for Designers: <http://simpleprimate.com/jekyll-for-designers/index.html>
+- Dynamic Copyright on Jekyll: <https://michaelsoolee.com/jekyll-copyright/>
+- Creating breadcrumbs in Jekyll: <https://jekyllcodex.org/without-plugin/breadcrumbs/>
+- Display all items from ALL collections: <https://stackoverflow.com/questions/31171041/listing-all-collections-in-jekyll>
 
 ### Other Resources
 
-- For markdown previews: https://jaspervdj.be/lorem-markdownum/
-- Case Study on webfont performance: https://www.keycdn.com/blog/web-font-performance
-- An extensive `.gitignore`: https://miguelmota.com/bytes/extensive-gitignore/
-- The inspriation for this project: http://motherfuckingwebsite.com/
+- For markdown previews: <https://jaspervdj.be/lorem-markdownum/>
+- Case Study on webfont performance: <https://www.keycdn.com/blog/web-font-performance>
+- An extensive `.gitignore`: <https://miguelmota.com/bytes/extensive-gitignore/>
+- The inspriation for this project: <http://motherfuckingwebsite.com/>
 
 ## Credit
 
