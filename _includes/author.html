@@ -1,6 +1,8 @@
-<div id="author">
+<div id="author h-card">
     <h3>About
-        {{site.author}}</h3>
-    <img src="{{ site.author_pic }}" alt="Photo of {{site.author}}"/>
-    <p>{{ site.author_bio }}</p>
+        <span class="p-name">{{site.author}}</span>
+    </h3>
+    <img class="u-photo" src="{{ site.author_pic }}" alt="Photo of {{site.author}}"/>
+    <p class="p-note">{{ site.author_bio }}</p>
+    <a href="{{site.url}}" class="u-url u-uid" hidden></a>
 </div>
