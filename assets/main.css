@@ -18,19 +18,19 @@ h2 {
     font-weight: bold;
 }
 
-#author {
+#h-card {
     overflow: auto;
     padding: 0px 10px 15px;
 }
 
-#author img {
+#h-card img {
     float: left;
     max-height: 150px;
     margin-top: -10px;
     padding-right: 15px;
 }
 
-#author h3 {
+#h-card h3 {
     margin-top: 5px;
 }
 
