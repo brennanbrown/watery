@@ -37,6 +37,21 @@ The only restrictions are that block-level HTML elements — e.g. `<div>`, `
     ##### This is an <h5> tag
     ###### This is an <h6> tag
     
+Result:
+
+# This is an <h1> tag
+  
+## This is an <h2> tag
+  
+### This is an <h3> tag
+  
+#### This is an <h4> tag
+  
+##### This is an <h5> tag
+  
+###### This is an <h6> tag
+
+    
 ### Emphasis
 
     *This text will be italic*
