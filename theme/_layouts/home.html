@@ -1,0 +1,74 @@
+---
+layout: default
+---
+
+<div>
+    {{ content }}
+
+    {% if site.paginate %}
+        {% assign posts = paginator.posts %}
+    {% else %}
+        {% assign posts = site.posts %}
+    {% endif %}
+
+    {%- if posts.size > 0 -%}
+        {%- assign date_format = site.minima.date_format | default: "%B %-d, %Y" -%}
+        {%- for post in posts -%}
+
+            <h2>
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+            </h2>
+            <span>Posted:
+                {{ post.date | date: date_format }}
+            </span>
+            <span>
+                {% for tag in post.tags %}
+                    <a href="{{ ('/tags/#' | append: tag) | relative_url }}">#{{ tag }}</a>
+                {% endfor %}
+            </span>
+            <br/>
+            <small>
+                <em>{{ post.content | strip_html | escape | truncate: 300}}</em>
+            </small>
+
+        {%- endfor -%}
+
+        <br/>
+
+        {% if site.paginate and paginator and paginator.total_pages > 1 %}
+            <div id="pages">
+                {% if paginator.previous_page %}
+                    <strong>
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+                    </strong>
+                {% else %}
+                    <span>&laquo; Prev</span>
+                {% endif %}
+
+                {% for page in (1..paginator.total_pages) %}
+                    {% if page == paginator.page %}
+                        <span class="webjeda">({{ page }})</span>
+                    {% elsif page == 1 %}
+                        <a href="{{ '/' | relative_url }}">{{ page }}</a>
+                    {% else %}
+                        <strong>
+                            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+                        </strong>
+                    {% endif %}
+                {% endfor %}
+
+                {% if paginator.next_page %}
+                    <strong>
+                        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+                    </strong>
+                {% else %}
+                    <span>Next &raquo;</span>
+                {% endif %}
+            </div>
+        {% endif %}
+
+    {%- endif -%}
+
+</div>

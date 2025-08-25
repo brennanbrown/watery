@@ -1,0 +1,21 @@
+<header>
+    <h1 id="title">
+        <a href="{{ '/' | relative_url }}">{{site.title}}</a>
+    </h1>
+    <p id="description">
+        {{site.description}}
+    </p>
+
+    <hr/>
+    <nav id="navigation">
+        <a href="{{ '/' | relative_url }}">Home</a>
+        /
+        {% assign nav_pages = site.pages | where_exp: 'p', 'p.title' | where_exp: 'p', 'p.nav_exclude != true' | sort: 'title' %}
+        {% for page in nav_pages %}
+            <a href="{{ page.url | relative_url }}">{{page.title}}</a>
+            /
+        {% endfor %}
+        <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+    </nav>
+    <hr/>
+</header>
