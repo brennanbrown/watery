@@ -32,6 +32,7 @@
 <a href="https://app.fossa.com/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2Fbrennanbrown%2Fwatery.svg?type=shield"/></a>
 <a href="https://github.com/brennanbrown/watery/blob/main/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/brennanbrown/watery"></a>
 <a href="https://watery.netlify.app"><img alt="Website" src="https://img.shields.io/website?down_color=red&down_message=Offline%21&label=Status&up_color=darkgreen&up_message=Online%21&url=https%3A%2F%2Fwatery.netlify.app"></a>
+<a href="https://rubygems.org/gems/watery"><img alt="RubyGems" src="https://img.shields.io/gem/v/watery.svg"></a>
 <br />
 <a href="https://github.com/brennanbrown?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/brennanbrown?label=Follow%20Me%21&style=social"></a>
 <a href="https://github.com/brennanbrown/watery/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/brennanbrown/watery?label=Watch%21&style=social"></a>
@@ -76,6 +77,16 @@ paginate_path: "/page/:num/"
 bundle install
 bundle exec jekyll serve
 ```
+
+### Install from RubyGems (optional)
+
+Watery is published on RubyGems:
+
+```bash
+gem install watery
+```
+
+Ruby projects should prefer adding it to your site `Gemfile` (see Quickstart above).
 
 <!-- ABOUT THE PROJECT -->
 
