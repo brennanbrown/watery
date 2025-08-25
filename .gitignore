@@ -291,3 +291,5 @@ error_log
 
 *.bak
 *.backup
+# Ignore built gems
+*.gem
