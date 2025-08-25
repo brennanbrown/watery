@@ -8,6 +8,21 @@ The format is based on Keep a Changelog, and this project adheres to Semantic Ve
 
 - Open items: decide whether to package as a theme gem or keep as a starter template; if publishing as a theme, add `_sass/` and finalize `.gemspec` asset list.
 
+## [0.1.0] - 2025-08-25
+
+### Added
+- Published theme gem to RubyGems: `watery` 0.1.0 (see `theme/`).
+- Docs: added `docs/GEM-THEME-GUIDE.md` (now includes MFA vs legacy publish flows), `docs/PAGINATION.md`, and `docs/COLLECTIONS.md`.
+
+### Changed
+- README: updated Quickstart for published gem, corrected `paginate_path`, and added a Documentation section linking all docs.
+- Fixed Liquid tag anchor links in `theme/_layouts/home.html` and `sandbox/tags.md`.
+- CI/Configs: added link-check workflow and defaults, Netlify config, robots.txt, and Dependabot.
+- Sandbox: confirmed local serve with LiveReload on port 4002.
+
+### Notes
+- Temporarily published 0.1.0 without `rubygems_mfa_required` to expedite release; plan to re-enable MFA and cut 0.1.1.
+
 ## [2025-08-25]
 
 ### Added

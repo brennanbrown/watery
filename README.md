@@ -48,7 +48,7 @@ Use Watery as a reusable theme in your Jekyll site.
 1) Add to your site `Gemfile`:
 ```ruby
 gem "jekyll", "~> 4.3"
-gem "watery", "~> 0.1" # once published to RubyGems
+gem "watery", "~> 0.1"
 
 group :jekyll_plugins do
   gem "jekyll-feed"
@@ -68,7 +68,7 @@ plugins:
   - jekyll-sitemap
 
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "/page/:num/"
 ```
 
 3) Build and serve:
@@ -178,6 +178,15 @@ Once you have Jekyll up-and-running, there are only a few steps needed to make t
 - Optional link checking in CI with Lychee. See `.github/workflows/link-check.yml` and `.lycheeignore`.
 - Optional Sass scaffolding (no requirement): see `assets/scss/sample.scss` and notes in `Gemfile` comments.
 - Optional pagination with `jekyll-paginate-v2` (not GitHub Pages–safe). See `docs/PAGINATION.md`.
+
+## Documentation
+
+- Changelog: `docs/CHANGELOG.md`
+- Theme gem guide (extraction/publish playbook): `docs/GEM-THEME-GUIDE.md`
+- Pagination options and guidance: `docs/PAGINATION.md`
+- Collections usage notes: `docs/COLLECTIONS.md`
+
+Also see `theme/README.md` for gem-specific consumer instructions.
 
 <!-- ROADMAP -->
 
