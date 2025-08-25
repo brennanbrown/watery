@@ -285,6 +285,32 @@ Including search (if used):
 
 ---
 
+## 11) Publish to RubyGems
+
+Two common flows exist depending on whether the RubyGems owner has Multi‑Factor Authentication (MFA) enforced.
+
+- If the gemspec includes `rubygems_mfa_required: true` metadata (recommended), owners must publish with an OTP code.
+- If MFA is not required for the owner and the gemspec does not require it, publishing without `--otp` may still work (legacy flow).
+
+From the `theme/` directory after `gem build`:
+
+```bash
+# Legacy (no MFA required by account or gemspec)
+gem push <gem-name>-<version>.gem
+
+# MFA required (owner has MFA enabled or gemspec sets rubygems_mfa_required)
+gem push <gem-name>-<version>.gem --otp <6-digit-code>
+```
+
+Troubleshooting:
+- Error: "Rubygem requires owners to enable MFA" → Enable MFA on your RubyGems account and use `--otp`.
+- Error: "You do not have permission to push to this gem" → Verify gem ownership with `gem owner <gem-name>` and RubyGems account in use.
+- If pushing from CI, use a scoped API key and pass OTP via secure input when required (or use an owner with MFA TOTP and manual step).
+
+Note: This guide (based on Purelog) previously allowed publishing without MFA when the owner did not have MFA enabled and the gemspec did not require it. For new gems, enabling MFA and `rubygems_mfa_required` is strongly recommended.
+
+---
+
 ## Conclusion
 
 Follow this playbook to convert any existing Jekyll theme into a clean, portable gem with a consistent structure, reliable builds, and a smooth developer experience. Adapt naming from "Purelog" to your theme as needed, and keep the sandbox and docs in sync with new features.
