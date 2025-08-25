@@ -23,7 +23,6 @@ Gem::Specification.new do |spec|
 
   spec.metadata = {
     "homepage_uri" => spec.homepage,
-    "source_code_uri" => spec.homepage,
-    "rubygems_mfa_required" => "true"
+    "source_code_uri" => spec.homepage
   }
 end
