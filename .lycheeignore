@@ -1,0 +1,11 @@
+# Ignore common false positives and rate-limited hosts
+# Regex syntax supported by lychee
+https://localhost
+http://localhost
+https://127.0.0.1
+http://127.0.0.1
+https://twitter.com/.*
+https://x.com/.*
+https://www.instagram.com/.*
+https://www.linkedin.com/.*
+mailto:.*
