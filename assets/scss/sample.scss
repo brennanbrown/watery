@@ -1,0 +1,17 @@
+// Optional Sass entrypoint (no requirement). To use:
+// 1) Add to Gemfile (uncomment):
+//    gem "jekyll-sass-converter", "~> 3.0"
+//    gem "sass-embedded"
+// 2) In _config.yml, ensure:
+//    sass:
+//      style: compressed
+// 3) Place your .scss files in assets/scss and import into a main file.
+// 4) Reference the compiled CSS from assets/css (Jekyll will output to /assets/css if configured).
+
+// Example variables
+$brand: #1473e6;
+
+// Example usage
+body {
+  --accent: #{$brand};
+}

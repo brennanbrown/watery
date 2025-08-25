@@ -58,7 +58,21 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
+  - jekyll-sitemap
 permalink: /:title
+
+# Optional: If you switch to jekyll-paginate-v2, replace the above with:
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+#   - jekyll-paginate-v2
+#   - jekyll-sitemap
+#
+# pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: "/page/:num/"
+#   title: ":title - page :num"
 
 theme_switcher: true
 
@@ -74,3 +88,11 @@ exclude:
   - ".jekyll-cache"
   - "Gemfile"
   - "Gemfile.lock"
+  - "theme"
+  - "sandbox"
+
+# Optional: Sass configuration (requires enabling Sass gems; see Gemfile comments)
+# sass:
+#   style: compressed
+#   load_paths:
+#     - assets/scss
