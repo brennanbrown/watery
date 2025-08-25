@@ -1,0 +1,16 @@
+source "https://rubygems.org"
+
+gem "jekyll", "~> 4.3"
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+end
+
+# Use local theme gem
+gem "watery", path: "../theme"
+
+# Serve
+gem "webrick", "~> 1.8"

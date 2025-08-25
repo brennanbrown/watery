@@ -1,0 +1,21 @@
+title: Watery Sandbox
+baseurl: ""
+url: ""
+
+theme: watery
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+collections:
+  pages:
+    output: true
+    permalink: /:title
+
+paginate: 5
+paginate_path: "/page/:num/"
+
+permalink: /:title
