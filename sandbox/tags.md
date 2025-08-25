@@ -11,7 +11,7 @@ permalink: /tags/
 {% for tag in tags_list %}
   {% assign t = tag[0] %}
   <li>
-    <a href="{{ ('/tags/#' | append: t) | relative_url }}">#{{ t }}</a> ({{ tag[1].size }})
+    <a href="{{ "/tags/#" | append: t | relative_url }}">#{{ t }}</a> ({{ tag[1].size }})
   </li>
 {% endfor %}
 </ul>
