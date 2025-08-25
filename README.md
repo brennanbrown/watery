@@ -35,9 +35,47 @@
 <br />
 <a href="https://github.com/brennanbrown?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/brennanbrown?label=Follow%20Me%21&style=social"></a>
 <a href="https://github.com/brennanbrown/watery/watchers"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/brennanbrown/watery?label=Watch%21&style=social"></a>
-<a href="https://github.com/brennanbrown/watery/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/brennanbrown/watery?label=Star%21&style=social"> </a>
-<a href="https://github.com/brennanbrown/watery/network/members"><img alt="GitHub forks"src="https://img.shields.io/github/forks/brennanbrown/watery?label=Fork%21&style=social"></a>
-</p>
+  <a href="https://github.com/brennanbrown/watery/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/brennanbrown/watery?label=Star%21&style=social"> </a>
+  <a href="https://github.com/brennanbrown/watery/network/members"><img alt="GitHub forks"src="https://img.shields.io/github/forks/brennanbrown/watery?label=Fork%21&style=social"></a>
+  </p>
+
+ [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/brennanbrown/watery)
+
+## Quickstart (theme gem)
+
+Use Watery as a reusable theme in your Jekyll site.
+
+1) Add to your site `Gemfile`:
+```ruby
+gem "jekyll", "~> 4.3"
+gem "watery", "~> 0.1" # once published to RubyGems
+
+group :jekyll_plugins do
+  gem "jekyll-feed"
+  gem "jekyll-seo-tag"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+end
+```
+
+2) Configure your site `_config.yml`:
+```yml
+theme: watery
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-sitemap
+
+paginate: 5
+paginate_path: "/page:num/"
+```
+
+3) Build and serve:
+```bash
+bundle install
+bundle exec jekyll serve
+```
 
 <!-- ABOUT THE PROJECT -->
 
@@ -75,9 +113,11 @@ Despite Watery's minimalist nature, there are a few interesting features that ha
 
 Jekyll requires the following:
 
-- Ruby version **2.5.0** or higher
-- RubyGems
-- GCC and Make
+- Ruby version **3.0** or higher (3.2+ recommended)
+- RubyGems and Bundler
+- GCC and Make (build tools)
+
+Note: Ruby 3 no longer bundles Webrick. This project declares `webrick` in the `Gemfile`, so `bundle exec jekyll serve` will work out of the box.
 
 See [Requirements](https://jekyllrb.com/docs/installation/#requirements) for guides and details.
 
@@ -108,6 +148,8 @@ cd watery
 bundle install
 ```
 
+On macOS/Linux, this will regenerate `Gemfile.lock` for your platform (the repo previously contained a Windows-specific lockfile). Commit the updated lockfile.
+
 6. Build the site and make it available on a local server.
 
 ```
@@ -130,6 +172,12 @@ Once you have Jekyll up-and-running, there are only a few steps needed to make t
 4. _(Optional)_ Modify or remove this `README.md` with information about your own project or blog.
 5. _(Optional)_ Modify the CSS files in the `assets` folder to customize the site.
 6. _(Optional)_ Remove `switcher.js` from the `assets` folder, choose [**another framework**](https://github.com/dbohdan/classless-css) to use!
+
+### Optional extras
+
+- Optional link checking in CI with Lychee. See `.github/workflows/link-check.yml` and `.lycheeignore`.
+- Optional Sass scaffolding (no requirement): see `assets/scss/sample.scss` and notes in `Gemfile` comments.
+- Optional pagination with `jekyll-paginate-v2` (not GitHub Pages–safe). See `docs/PAGINATION.md`.
 
 <!-- ROADMAP -->
 
