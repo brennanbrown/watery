@@ -15,8 +15,8 @@ layout: default
 
     {%- include author.html -%}
 
-    {%- if site.disqus.shortname -%}
-        {%- include disqus_comments.html -%}
+    {%- if site.disqus -%}
+        {%- include disqus.html -%}
     {%- endif -%}
 
     <a class="u-url u-uid" href="{{ page.url | relative_url }}" hidden></a>

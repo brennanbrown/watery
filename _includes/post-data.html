@@ -1,6 +1,6 @@
 <p>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <time class="dt-publshed" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date: date_format }}
         </time>
         {%- if page.modified_date -%}
@@ -24,6 +24,6 @@
         {%- endif -%}
         &#8239;|&#8239; 
         {%- for tag in page.tags -%}
-            <a class="p-category" href="/tags/#{{ tag }}">#{{ tag }}</a> &#8239; 
+            <a class="p-category" href="{{ ('/tags/#' | append: tag) | relative_url }}">#{{ tag }}</a> &#8239; 
         {%- endfor -%}
     </p>

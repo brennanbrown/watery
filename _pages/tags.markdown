@@ -17,16 +17,18 @@ content-type: eg
 }
 </style>
 
-<div>
-    {% for tag in site.tags %}
-    <div>
-        <h3 id="{{ tag | first }}">{{ tag | first | capitalize }}</h3>
+<div class="category-content">
+    {% assign tags_list = site.tags | sort %}
+    {% for tag in tags_list %}
+      {% assign t = tag[0] %}
+      <div>
+        <h3 id="{{ t }}">#{{ t }}</h3>
         <ul>
-        {% for post in tag.last %}
-            <li><a href="{{post.url}}">{{ post.title }}</a></li>
+        {% for post in tag[1] %}
+            <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
         {% endfor %}
         </ul>
-    </div>
+      </div>
     {% endfor %}
     <br/>
     <br/>
